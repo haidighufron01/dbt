@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: postgre_source
+    database: postgres
+    schema: public
+    tables:
+      - name: item
